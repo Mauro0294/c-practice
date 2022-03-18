@@ -4,6 +4,7 @@
 
 int main()
 {
+    // Input
     int amount, x, waarde;
     printf("How much values do you want to store?\n");
     scanf("%i", &amount);
@@ -13,6 +14,8 @@ int main()
         printf("Value %i: ", x);
         scanf("%i", &array[x]);
     }
+
+    // Output
     printf("Values in the array are:\n[");
     for (x = 1; x < amount; x++) {
         if (x < amount - 1) {
