@@ -39,7 +39,7 @@ int main()
         // Output
         printf("Value of the short side: %.2f", sqrt(side_b));
     } else {
-        printf("Not a valid option");
+        printf("'%i' is not a valid option", choice);
         return 0;
     }
 }
